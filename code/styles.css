@@ -87,7 +87,7 @@ picture img {
     text-decoration: line-through;
 }
 
-button {
+.btn {
     padding: 20px;
     border: none;
     border-radius: 10px;
@@ -101,14 +101,14 @@ button {
     justify-content: center;
     transition: all 200ms ease-in;
 }
-button:hover {
+.btn:hover {
     background-color: hsl(159, 45%, 15%);
 }
 
-button:focus {
+.btn:focus {
     transform: scale(.975);
 }
-button p {
+.btn p {
     padding-left: 15px;
 }
 .cart__icon {
